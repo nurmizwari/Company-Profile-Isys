@@ -1,0 +1,65 @@
+.container-access {
+  box-sizing: border-box;
+  padding: 50px 0 0 47px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  .left-access-header {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 55px;
+    width: 516px;
+    margin-bottom: 16px;
+    /* or 122% */
+
+    color: #000000;
+  }
+  .left-access-subheader {
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #000000;
+
+    opacity: 0.6;
+  }
+  .acces-Iheader {
+    display: flex;
+    gap: 41px;
+    .left-access-Iheader {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 24px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container-access {
+    padding: 0 13px 0 13px;
+    .left {
+      width: 100%;
+      .left-access-header {
+        width: 100%;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 50px;
+      }
+      .Ibutton {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .right {
+      display: none;
+    }
+  }
+}

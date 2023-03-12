@@ -1,0 +1,42 @@
+.container-footer {
+  height: 121px;
+  width: 100%;
+  background: rgba(39, 66, 77, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 60px 0 60px;
+  .company {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+
+    color: #ffffff;
+  }
+  .signature {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    color: #ffffff;
+  }
+  .social-media {
+    display: flex;
+    gap: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container-footer {
+    padding: 10px 13px 10px 13px;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,147 @@
+.container-features {
+  background: #f1f7f9;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // padding: 0 20px 0 20px;
+  // padding-top: "48px";
+  // padding-bottom: "48px";
+  .container-featues-header {
+    .features-text {
+      font-family: "Sora";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 50px;
+      /* identical to box height, or 125% */
+
+      text-align: center;
+
+      color: #000000;
+    }
+  }
+  .container-features-card {
+    .card-product {
+      border-radius: 16px;
+      padding: "16px 16px 16px 16px";
+      width: 374px;
+      // height: 390px;
+    }
+    .card-image {
+      border-radius: 16px;
+      height: 240px;
+      // width: 342px;
+    }
+    .card-content-header {
+      font-family: "Sora";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 10px;
+      /* identical to box height, or 156% */
+
+      color: #000000;
+    }
+    .footer-card {
+      display: flex;
+      justify-content: space-between;
+      .left {
+        display: flex;
+        gap: 8px;
+        .footer-image {
+          object-fit: contain;
+        }
+      }
+      .right {
+        display: flex;
+        gap: 8px;
+        .footer-image {
+          object-fit: contain;
+        }
+      }
+    }
+  }
+
+  .card-name {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .card-name-double {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+    }
+    .button-card {
+      background-color: #000000;
+      color: white;
+      border-radius: 8px;
+      font-family: "Sora";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+  .footer-card {
+    .left-text {
+      font-family: "Sora";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      /* identical to box height, or 167% */
+
+      color: #000000;
+    }
+  }
+
+  .icon {
+    width: "90px";
+    height: "30px";
+    background-color: "white";
+    position: "relative";
+    top: "-233px";
+    left: "12px";
+    border-radius: "4px";
+    display: "flex";
+    align-items: "center";
+    justify-content: center;
+    .icon-text {
+      font-family: "Sora";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 22px;
+      /* identical to box height; or 183% */
+
+      color: #000000;
+
+      opacity: 0.6;
+    }
+    .icon-angka {
+      font-family: "Sora";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 22px;
+      /* identical to box height, or 183% */
+
+      color: #000000;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container-features-card {
+    padding: 0 13px 0 13px;
+    .card-product {
+      width: 90% !important;
+    }
+  }
+}

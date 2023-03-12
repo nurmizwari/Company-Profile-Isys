@@ -1,0 +1,73 @@
+@mixin box-paper {
+  width: 274px;
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  .container-paper-text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .container-paper-subtext {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+
+.container-how {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 115.29px 0 0 0;
+  justify-content: center;
+  align-items: center;
+  .container-up {
+    .container-text {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 50px;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 48px;
+    }
+  }
+  .container-down {
+    .container-box {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 24px;
+      justify-content: center;
+      .container-down-paper-one {
+        @include box-paper;
+      }
+    }
+  }
+}
+
+// /  responsive mobile//
+@media only screen and (max-width: 600px) {
+  .container-how {
+    padding: 0;
+  }
+}
