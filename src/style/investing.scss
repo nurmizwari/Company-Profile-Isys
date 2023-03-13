@@ -61,6 +61,7 @@
 }
 @media only screen and (max-width: 600px) {
   .container-investing {
+    box-sizing: border-box;
     margin-top: 720px;
     padding: 10px 13px 0 13px;
     width: 100%;

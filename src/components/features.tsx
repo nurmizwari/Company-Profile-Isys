@@ -133,6 +133,7 @@ export default function Features() {
         <Typography className="features-text"> Our Features</Typography>
       </div>
       <div
+        className="Icardd"
         style={{
           display: "flex",
           flexDirection: "row",
