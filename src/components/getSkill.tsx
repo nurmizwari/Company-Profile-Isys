@@ -22,7 +22,7 @@ import {
 
 export default function GetSkill() {
   return (
-    <div className="container">
+    <div className="container-getskill">
       <div className="left">
         <Typography className="sub-left-text">
           Get Skills <br />

@@ -12,9 +12,9 @@ export default function Students() {
         <Ibutton name="Discover more" />
       </div>
       <div className="container-down">
-        <img src={student} alt="students testimony" />
-        <img src={student} alt="students testimony" />
-        <img src={student} alt="students testimony" />
+        <img src={student} alt="students testimony" className="img" />
+        <img src={student} alt="students testimony" className="img" />
+        <img src={student} alt="students testimony" className="img" />
       </div>
     </div>
   );

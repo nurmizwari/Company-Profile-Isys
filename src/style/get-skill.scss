@@ -1,4 +1,4 @@
-.container {
+.container-getskill {
   padding: 0px 0px 0px 47px;
   box-sizing: border-box;
   width: 100%;
@@ -70,18 +70,28 @@
 
 //  responsive mobile//
 @media only screen and (max-width: 600px) {
-  .container {
+  .container-getskill {
+    // border: 1px solid red;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
     padding: 0 13px 0 13px;
     .right {
       display: none;
     }
     .left {
+      box-sizing: border-box;
+      width: 100%;
+      // border: 1px solid blue;
       .sub-left-text {
+        width: 100%;
         font-weight: 600;
         font-size: 40px;
+        line-height: 50px;
       }
       .search {
         width: 100%;
+        box-sizing: border-box;
         padding: 0;
         display: flex;
         justify-content: center;
